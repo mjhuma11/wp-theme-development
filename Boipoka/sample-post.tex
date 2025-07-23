@@ -1,0 +1,39 @@
+% Setting up the document with a standard article class
+\documentclass[a4paper,12pt]{article}
+
+% Including necessary packages from texlive-full
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{parskip}
+
+% Configuring page geometry
+\geometry{margin=1in}
+
+% Setting font to Latin Modern for compatibility
+\renewcommand{\rmdefault}{lmr}
+
+\begin{document}
+
+% Creating a title section
+\title{Sample Post PDF}
+\author{Your Name}
+\date{July 2025}
+\maketitle
+
+% Adding content
+\section{Introduction}
+This is a sample PDF file for a WordPress post. It can be uploaded to a post via the WordPress admin panel and linked to the download button on the blog's index page.
+
+\section{Content}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+% Adding a simple list
+\begin{itemize}
+    \item This is a sample document.
+    \item It demonstrates a basic PDF structure.
+    \item You can customize this content as needed.
+\end{itemize}
+
+\end{document}
